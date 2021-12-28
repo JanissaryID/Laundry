@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.laundry.HomeFragment"
+        android:name="com.example.laundry.Fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -16,7 +16,30 @@
     </fragment>
     <fragment
         android:id="@+id/settingFragment"
-        android:name="com.example.laundry.SettingFragment"
+        android:name="com.example.laundry.Fragment.SettingFragment"
         android:label="fragment_setting"
-        tools:layout="@layout/fragment_setting" />
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_editSetting"
+            app:destination="@id/editSetting" />
+        <argument
+            android:name="Title"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="Value" />
+        <argument
+            android:name="ValueString"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="25000" />
+        <argument
+            android:name="UnitValue"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/editSetting"
+        android:name="com.example.laundry.Fragment.EditSetting"
+        android:label="fragment_edit_setting"
+        tools:layout="@layout/fragment_edit_setting" />
 </navigation>

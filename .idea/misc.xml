@@ -4,9 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Krisn/AndroidStudioProjects/Laundry/app/src/main/res/drawable/header_layout.xml" value="0.2203125" />
+        <entry key="..\:/Users/Krisn/AndroidStudioProjects/Laundry/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2203125" />
         <entry key="..\:/Users/Krisn/AndroidStudioProjects/Laundry/app/src/main/res/drawable/ic_heat.xml" value="0.1125" />
         <entry key="..\:/Users/Krisn/AndroidStudioProjects/Laundry/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Krisn/AndroidStudioProjects/Laundry/app/src/main/res/layout/fragment_edit_setting.xml" value="0.5" />
         <entry key="..\:/Users/Krisn/AndroidStudioProjects/Laundry/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Krisn/AndroidStudioProjects/Laundry/app/src/main/res/layout/fragment_setting.xml" value="0.33" />
+        <entry key="..\:/Users/Krisn/AndroidStudioProjects/Laundry/app/src/main/res/layout/list_item_setting.xml" value="0.33" />
         <entry key="..\:/Users/Krisn/AndroidStudioProjects/Laundry/app/src/main/res/layout/list_item_transaction.xml" value="0.5" />
       </map>
     </option>
